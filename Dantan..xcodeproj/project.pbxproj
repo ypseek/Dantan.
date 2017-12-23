@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400A63D1F9992A1007FACCA /* YPHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A63B1F9992A1007FACCA /* YPHomeCell.swift */; };
+		0400A63E1F9992A1007FACCA /* YPHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0400A63C1F9992A1007FACCA /* YPHomeCell.xib */; };
+		0438EA5C1F909316004DDE2D /* YPMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA5B1F909316004DDE2D /* YPMeViewController.swift */; };
+		0438EA5E1F909327004DDE2D /* YPCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA5D1F909327004DDE2D /* YPCategoryViewController.swift */; };
+		0438EA601F90933C004DDE2D /* YPProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA5F1F90933C004DDE2D /* YPProductViewController.swift */; };
+		0438EA621F90935C004DDE2D /* YPDantanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA611F90935C004DDE2D /* YPDantanViewController.swift */; };
+		0438EA641F90952F004DDE2D /* YPNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA631F90952F004DDE2D /* YPNavigationViewController.swift */; };
+		0438EA661F909A83004DDE2D /* YPNetworkingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA651F909A83004DDE2D /* YPNetworkingTool.swift */; };
+		0438EA6C1F909BBD004DDE2D /* YPHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA6B1F909BBD004DDE2D /* YPHomeItem.swift */; };
+		0438EA6E1F90B0FC004DDE2D /* YPChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA6D1F90B0FC004DDE2D /* YPChannel.swift */; };
+		0438EA701F90B39C004DDE2D /* YPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA6F1F90B39C004DDE2D /* YPBaseViewController.swift */; };
+		0438EA721F90B3E2004DDE2D /* YPTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA711F90B3E2004DDE2D /* YPTopicViewController.swift */; };
+		0438EA761F90BB08004DDE2D /* UITableView+EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA741F90BB08004DDE2D /* UITableView+EmptyData.swift */; };
+		0438EA771F90BB08004DDE2D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438EA751F90BB08004DDE2D /* UIView+Extension.swift */; };
+		0461CBFA1F99A9AD00A9F3EB /* YPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CBF81F99A9AD00A9F3EB /* YPLoginViewController.swift */; };
+		0461CBFB1F99A9AD00A9F3EB /* YPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461CBF91F99A9AD00A9F3EB /* YPLoginViewController.xib */; };
+		0461CBFD1F99DB6F00A9F3EB /* YPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CBFC1F99DB6F00A9F3EB /* YPDetailViewController.swift */; };
+		0461CC031F99E4D600A9F3EB /* YPProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CC011F99E4D600A9F3EB /* YPProductCollectionViewCell.swift */; };
+		0461CC041F99E4D600A9F3EB /* YPProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461CC021F99E4D600A9F3EB /* YPProductCollectionViewCell.xib */; };
+		0461CC061F99E5E200A9F3EB /* YPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CC051F99E5E200A9F3EB /* YPProduct.swift */; };
+		0461CC081F99EA3900A9F3EB /* YPProductDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CC071F99EA3900A9F3EB /* YPProductDetailModel.swift */; };
 		048710B61F905A060058BD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710B51F905A060058BD42 /* AppDelegate.swift */; };
 		048710B81F905A060058BD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710B71F905A060058BD42 /* ViewController.swift */; };
 		048710BB1F905A060058BD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048710B91F905A060058BD42 /* Main.storyboard */; };
@@ -14,6 +35,11 @@
 		048710C01F905A060058BD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048710BE1F905A060058BD42 /* LaunchScreen.storyboard */; };
 		048710CB1F905A060058BD42 /* Dantan_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710CA1F905A060058BD42 /* Dantan_Tests.swift */; };
 		048710D61F905A060058BD42 /* Dantan_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710D51F905A060058BD42 /* Dantan_UITests.swift */; };
+		048710EC1F9062970058BD42 /* YMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710EB1F9062970058BD42 /* YMConst.swift */; };
+		048710EE1F9062A00058BD42 /* YPNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710ED1F9062A00058BD42 /* YPNetworkTool.swift */; };
+		048710F01F90637B0058BD42 /* YPNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710EF1F90637B0058BD42 /* YPNewViewController.swift */; };
+		048710F41F9064720058BD42 /* YPTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048710F31F9064720058BD42 /* YPTabbarController.swift */; };
+		33445A9CB8C2CFEE543447D9 /* Pods_Dantan_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C97886059EF26062DAC8F8 /* Pods_Dantan_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0400A63B1F9992A1007FACCA /* YPHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPHomeCell.swift; sourceTree = "<group>"; };
+		0400A63C1F9992A1007FACCA /* YPHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPHomeCell.xib; sourceTree = "<group>"; };
+		0438EA5B1F909316004DDE2D /* YPMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPMeViewController.swift; sourceTree = "<group>"; };
+		0438EA5D1F909327004DDE2D /* YPCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPCategoryViewController.swift; sourceTree = "<group>"; };
+		0438EA5F1F90933C004DDE2D /* YPProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPProductViewController.swift; sourceTree = "<group>"; };
+		0438EA611F90935C004DDE2D /* YPDantanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDantanViewController.swift; sourceTree = "<group>"; };
+		0438EA631F90952F004DDE2D /* YPNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPNavigationViewController.swift; sourceTree = "<group>"; };
+		0438EA651F909A83004DDE2D /* YPNetworkingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPNetworkingTool.swift; sourceTree = "<group>"; };
+		0438EA6B1F909BBD004DDE2D /* YPHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPHomeItem.swift; sourceTree = "<group>"; };
+		0438EA6D1F90B0FC004DDE2D /* YPChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPChannel.swift; sourceTree = "<group>"; };
+		0438EA6F1F90B39C004DDE2D /* YPBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPBaseViewController.swift; sourceTree = "<group>"; };
+		0438EA711F90B3E2004DDE2D /* YPTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPTopicViewController.swift; sourceTree = "<group>"; };
+		0438EA741F90BB08004DDE2D /* UITableView+EmptyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyData.swift"; sourceTree = "<group>"; };
+		0438EA751F90BB08004DDE2D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0461CBF81F99A9AD00A9F3EB /* YPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPLoginViewController.swift; sourceTree = "<group>"; };
+		0461CBF91F99A9AD00A9F3EB /* YPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPLoginViewController.xib; sourceTree = "<group>"; };
+		0461CBFC1F99DB6F00A9F3EB /* YPDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDetailViewController.swift; sourceTree = "<group>"; };
+		0461CC011F99E4D600A9F3EB /* YPProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		0461CC021F99E4D600A9F3EB /* YPProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		0461CC051F99E5E200A9F3EB /* YPProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPProduct.swift; sourceTree = "<group>"; };
+		0461CC071F99EA3900A9F3EB /* YPProductDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPProductDetailModel.swift; sourceTree = "<group>"; };
 		048710B21F905A060058BD42 /* Dantan..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dantan..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048710B51F905A060058BD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048710B71F905A060058BD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,13 @@
 		048710D11F905A060058BD42 /* Dantan.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dantan.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048710D51F905A060058BD42 /* Dantan_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dantan_UITests.swift; sourceTree = "<group>"; };
 		048710D71F905A060058BD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048710EB1F9062970058BD42 /* YMConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMConst.swift; sourceTree = "<group>"; };
+		048710ED1F9062A00058BD42 /* YPNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPNetworkTool.swift; sourceTree = "<group>"; };
+		048710EF1F90637B0058BD42 /* YPNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPNewViewController.swift; sourceTree = "<group>"; };
+		048710F31F9064720058BD42 /* YPTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPTabbarController.swift; sourceTree = "<group>"; };
+		66D82F577669C152C66A4B08 /* Pods-Dantan..debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dantan..debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dantan./Pods-Dantan..debug.xcconfig"; sourceTree = "<group>"; };
+		E7C97886059EF26062DAC8F8 /* Pods_Dantan_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dantan_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC447FD6CFABE44B606B4F01 /* Pods-Dantan..release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dantan..release.xcconfig"; path = "Pods/Target Support Files/Pods-Dantan./Pods-Dantan..release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33445A9CB8C2CFEE543447D9 /* Pods_Dantan_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +129,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0438EA581F909297004DDE2D /* product */ = {
+			isa = PBXGroup;
+			children = (
+				0461CC001F99E13600A9F3EB /* model */,
+				0461CBFF1F99E12E00A9F3EB /* view */,
+				0461CBFE1F99E11D00A9F3EB /* ctl */,
+			);
+			name = product;
+			sourceTree = "<group>";
+		};
+		0438EA591F9092B7004DDE2D /* category */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA5D1F909327004DDE2D /* YPCategoryViewController.swift */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		0438EA5A1F9092CE004DDE2D /* me */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA5B1F909316004DDE2D /* YPMeViewController.swift */,
+			);
+			name = me;
+			sourceTree = "<group>";
+		};
+		0438EA671F909B80004DDE2D /* ctl */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA611F90935C004DDE2D /* YPDantanViewController.swift */,
+				0438EA711F90B3E2004DDE2D /* YPTopicViewController.swift */,
+				0461CBFC1F99DB6F00A9F3EB /* YPDetailViewController.swift */,
+			);
+			name = ctl;
+			sourceTree = "<group>";
+		};
+		0438EA691F909B8F004DDE2D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA6B1F909BBD004DDE2D /* YPHomeItem.swift */,
+				0438EA6D1F90B0FC004DDE2D /* YPChannel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0438EA6A1F909B9C004DDE2D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0400A63B1F9992A1007FACCA /* YPHomeCell.swift */,
+				0400A63C1F9992A1007FACCA /* YPHomeCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		0438EA731F90BAF0004DDE2D /* categary */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA741F90BB08004DDE2D /* UITableView+EmptyData.swift */,
+				0438EA751F90BB08004DDE2D /* UIView+Extension.swift */,
+			);
+			name = categary;
+			sourceTree = "<group>";
+		};
+		0461CBF71F99A90D00A9F3EB /* newFeature */ = {
+			isa = PBXGroup;
+			children = (
+				048710EF1F90637B0058BD42 /* YPNewViewController.swift */,
+			);
+			name = newFeature;
+			sourceTree = "<group>";
+		};
+		0461CBFE1F99E11D00A9F3EB /* ctl */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA5F1F90933C004DDE2D /* YPProductViewController.swift */,
+			);
+			name = ctl;
+			sourceTree = "<group>";
+		};
+		0461CBFF1F99E12E00A9F3EB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0461CC011F99E4D600A9F3EB /* YPProductCollectionViewCell.swift */,
+				0461CC021F99E4D600A9F3EB /* YPProductCollectionViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		0461CC001F99E13600A9F3EB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0461CC051F99E5E200A9F3EB /* YPProduct.swift */,
+				0461CC071F99EA3900A9F3EB /* YPProductDetailModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		048710A91F905A060058BD42 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +233,8 @@
 				048710C91F905A060058BD42 /* Dantan.Tests */,
 				048710D41F905A060058BD42 /* Dantan.UITests */,
 				048710B31F905A060058BD42 /* Products */,
+				72843EDE274D8654F5D8C019 /* Pods */,
+				14DF42C9BFA0990454579931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +251,7 @@
 		048710B41F905A060058BD42 /* Dantan. */ = {
 			isa = PBXGroup;
 			children = (
+				048710E31F90623E0058BD42 /* classes */,
 				048710B51F905A060058BD42 /* AppDelegate.swift */,
 				048710B71F905A060058BD42 /* ViewController.swift */,
 				048710B91F905A060058BD42 /* Main.storyboard */,
@@ -125,6 +280,94 @@
 			path = Dantan.UITests;
 			sourceTree = "<group>";
 		};
+		048710E31F90623E0058BD42 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA5A1F9092CE004DDE2D /* me */,
+				0438EA591F9092B7004DDE2D /* category */,
+				0438EA581F909297004DDE2D /* product */,
+				048710E91F9062750058BD42 /* main */,
+				0461CBF71F99A90D00A9F3EB /* newFeature */,
+				048710E81F90626D0058BD42 /* login */,
+				048710E71F9062630058BD42 /* dantang */,
+				048710E41F90624A0058BD42 /* classify */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		048710E41F90624A0058BD42 /* classify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = classify;
+			sourceTree = "<group>";
+		};
+		048710E71F9062630058BD42 /* dantang */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA691F909B8F004DDE2D /* model */,
+				0438EA6A1F909B9C004DDE2D /* view */,
+				0438EA671F909B80004DDE2D /* ctl */,
+			);
+			name = dantang;
+			sourceTree = "<group>";
+		};
+		048710E81F90626D0058BD42 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				0461CBF81F99A9AD00A9F3EB /* YPLoginViewController.swift */,
+				0461CBF91F99A9AD00A9F3EB /* YPLoginViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		048710E91F9062750058BD42 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0438EA731F90BAF0004DDE2D /* categary */,
+				048710F11F90643E0058BD42 /* controller */,
+				048710EA1F9062890058BD42 /* tools */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		048710EA1F9062890058BD42 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				048710EB1F9062970058BD42 /* YMConst.swift */,
+				048710ED1F9062A00058BD42 /* YPNetworkTool.swift */,
+				0438EA651F909A83004DDE2D /* YPNetworkingTool.swift */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		048710F11F90643E0058BD42 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				048710F31F9064720058BD42 /* YPTabbarController.swift */,
+				0438EA631F90952F004DDE2D /* YPNavigationViewController.swift */,
+				0438EA6F1F90B39C004DDE2D /* YPBaseViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		14DF42C9BFA0990454579931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C97886059EF26062DAC8F8 /* Pods_Dantan_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72843EDE274D8654F5D8C019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D82F577669C152C66A4B08 /* Pods-Dantan..debug.xcconfig */,
+				FC447FD6CFABE44B606B4F01 /* Pods-Dantan..release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048710DA1F905A060058BD42 /* Build configuration list for PBXNativeTarget "Dantan." */;
 			buildPhases = (
+				B53C9F4437E316C5F89C624E /* [CP] Check Pods Manifest.lock */,
 				048710AE1F905A060058BD42 /* Sources */,
 				048710AF1F905A060058BD42 /* Frameworks */,
 				048710B01F905A060058BD42 /* Resources */,
+				4D73C567BF7AC40E00C5E39C /* [CP] Embed Pods Frameworks */,
+				8437CD5D96331B74FFCB77F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +434,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = huahan;
 				TargetAttributes = {
 					048710B11F905A060058BD42 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A3AHEHESR2;
 						ProvisioningStyle = Automatic;
 					};
 					048710C51F905A060058BD42 = {
@@ -233,8 +480,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				048710C01F905A060058BD42 /* LaunchScreen.storyboard in Resources */,
+				0400A63E1F9992A1007FACCA /* YPHomeCell.xib in Resources */,
 				048710BD1F905A060058BD42 /* Assets.xcassets in Resources */,
 				048710BB1F905A060058BD42 /* Main.storyboard in Resources */,
+				0461CBFB1F99A9AD00A9F3EB /* YPLoginViewController.xib in Resources */,
+				0461CC041F99E4D600A9F3EB /* YPProductCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +504,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D73C567BF7AC40E00C5E39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dantan./Pods-Dantan.-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8437CD5D96331B74FFCB77F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dantan./Pods-Dantan.-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53C9F4437E316C5F89C624E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		048710AE1F905A060058BD42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0438EA6C1F909BBD004DDE2D /* YPHomeItem.swift in Sources */,
+				0400A63D1F9992A1007FACCA /* YPHomeCell.swift in Sources */,
+				048710F41F9064720058BD42 /* YPTabbarController.swift in Sources */,
+				0461CC031F99E4D600A9F3EB /* YPProductCollectionViewCell.swift in Sources */,
+				0461CBFA1F99A9AD00A9F3EB /* YPLoginViewController.swift in Sources */,
+				048710EE1F9062A00058BD42 /* YPNetworkTool.swift in Sources */,
+				048710F01F90637B0058BD42 /* YPNewViewController.swift in Sources */,
+				0438EA621F90935C004DDE2D /* YPDantanViewController.swift in Sources */,
+				0438EA641F90952F004DDE2D /* YPNavigationViewController.swift in Sources */,
+				0438EA601F90933C004DDE2D /* YPProductViewController.swift in Sources */,
 				048710B81F905A060058BD42 /* ViewController.swift in Sources */,
+				048710EC1F9062970058BD42 /* YMConst.swift in Sources */,
+				0438EA661F909A83004DDE2D /* YPNetworkingTool.swift in Sources */,
+				0438EA761F90BB08004DDE2D /* UITableView+EmptyData.swift in Sources */,
+				0461CC061F99E5E200A9F3EB /* YPProduct.swift in Sources */,
+				0461CBFD1F99DB6F00A9F3EB /* YPDetailViewController.swift in Sources */,
 				048710B61F905A060058BD42 /* AppDelegate.swift in Sources */,
+				0438EA771F90BB08004DDE2D /* UIView+Extension.swift in Sources */,
+				0438EA701F90B39C004DDE2D /* YPBaseViewController.swift in Sources */,
+				0461CC081F99EA3900A9F3EB /* YPProductDetailModel.swift in Sources */,
+				0438EA5C1F909316004DDE2D /* YPMeViewController.swift in Sources */,
+				0438EA721F90B3E2004DDE2D /* YPTopicViewController.swift in Sources */,
+				0438EA6E1F90B0FC004DDE2D /* YPChannel.swift in Sources */,
+				0438EA5E1F909327004DDE2D /* YPCategoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +645,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -333,7 +655,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -375,7 +701,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -383,7 +711,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,8 +742,10 @@
 		};
 		048710DB1F905A060058BD42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D82F577669C152C66A4B08 /* Pods-Dantan..debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3AHEHESR2;
 				INFOPLIST_FILE = Dantan./Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huahan.Dantan-";
@@ -422,8 +756,10 @@
 		};
 		048710DC1F905A060058BD42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC447FD6CFABE44B606B4F01 /* Pods-Dantan..release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3AHEHESR2;
 				INFOPLIST_FILE = Dantan./Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huahan.Dantan-";
@@ -505,6 +841,7 @@
 				048710DC1F905A060058BD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048710DD1F905A060058BD42 /* Build configuration list for PBXNativeTarget "Dantan.Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +850,7 @@
 				048710DF1F905A060058BD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048710E01F905A060058BD42 /* Build configuration list for PBXNativeTarget "Dantan.UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +859,7 @@
 				048710E21F905A060058BD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

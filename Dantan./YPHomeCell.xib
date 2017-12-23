@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="YPHomeCell" customModule="Dantan_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rXc-kc-ZC2">
+                        <rect key="frame" x="8" y="8" width="428" height="178.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwX-p8-3rM">
+                        <rect key="frame" x="13" y="160.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giy-et-Mdv">
+                        <rect key="frame" x="398" y="18" width="28" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="ot9-nz-aCa"/>
+                        </constraints>
+                        <state key="normal" title="0" image="Feed_FavoriteIcon_17x17_"/>
+                        <connections>
+                            <action selector="favorite:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="OWq-RU-dx5"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rXc-kc-ZC2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1WM-ce-4ge"/>
+                    <constraint firstAttribute="bottom" secondItem="LwX-p8-3rM" secondAttribute="bottom" constant="13" id="66r-F9-ps6"/>
+                    <constraint firstAttribute="trailing" secondItem="rXc-kc-ZC2" secondAttribute="trailing" constant="8" id="Ltt-fd-ZHk"/>
+                    <constraint firstItem="rXc-kc-ZC2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Q1N-qq-yge"/>
+                    <constraint firstItem="giy-et-Mdv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="aOX-OZ-qPA"/>
+                    <constraint firstAttribute="bottom" secondItem="rXc-kc-ZC2" secondAttribute="bottom" constant="8" id="c8T-Iw-DKV"/>
+                    <constraint firstItem="LwX-p8-3rM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="djh-9i-gYe"/>
+                    <constraint firstAttribute="trailing" secondItem="giy-et-Mdv" secondAttribute="trailing" constant="18" id="evI-Gf-nY9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="rXc-kc-ZC2" id="ej1-Cy-nFZ"/>
+                <outlet property="favoriteBtn" destination="giy-et-Mdv" id="1tf-hA-eZa"/>
+                <outlet property="titleLabel" destination="LwX-p8-3rM" id="F5b-a0-yE9"/>
+            </connections>
+            <point key="canvasLocation" x="-225" y="-11.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Feed_FavoriteIcon_17x17_" width="17" height="17"/>
+    </resources>
+</document>

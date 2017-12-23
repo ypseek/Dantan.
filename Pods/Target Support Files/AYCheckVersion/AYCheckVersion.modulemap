@@ -1,0 +1,6 @@
+framework module AYCheckVersion {
+  umbrella header "AYCheckVersion-umbrella.h"
+
+  export *
+  module * { export * }
+}
